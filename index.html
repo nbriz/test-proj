@@ -29,11 +29,24 @@
     <p>
       I'm so glad you're here!
     </p>
+    
+    <video src="video/screen-saver.mp4" controls></video>
 
     <nav>
       <a href="https://netizen.org">some other page</a>
       <a href="https://developer.mozilla.org">yet another page</a>
     </nav>
+    
+    <button id="click">jump</button>
+    
+    <script>
+      document.querySelector('#click')
+        .addEventListener('click', () => {
+          const v = document.querySelector('video')
+          v.currentTime = 6
+          console.log(v.currentTime)
+        })
+    </script>
 
   </body>
 </html>
