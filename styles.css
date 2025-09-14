@@ -1,0 +1,9 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair';
+  src: url('fonts/playfair-display-v39-latin-regular.woff2') format('woff2');
+}
+
+h1 {
+  font-family: 'Playfair';
+}
